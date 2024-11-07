@@ -2,11 +2,12 @@
 GitHub Action to run Gource on the desired repository and store the log for later use.
 
 ## About the Project
-**{project statement}**
+A Custom Built GitHub Action that helps Automate Gource and Gource Log Creation
 
-<!--- 
+
+<!-- 
 ### Project Vision
-**{project vision}** -->
+-->
 
 <!-- 
 ### Project Mission
@@ -24,18 +25,28 @@ TODO: Good to include since this is an agency-led project -->
 
 An up-to-date list of core team members can be found in [MAINTAINERS.md](MAINTAINERS.md). At this time, the project is still building the core team and defining roles and responsibilities. We are eagerly seeking individuals who would like to join the community and help us define and fill these roles.
 
+<!--
 ## Documentation Index 
 
-<!-- TODO: This is a like a 'table of contents" for your documentation. Tier 0/1 projects with simple README.md files without many sections may or may not need this, but it is still extremely helpful to provide "bookmark" or "anchor" links to specific sections of your file to be referenced in tickets, docs, or other communication channels.-->
+ TODO: This is a like a 'table of contents" for your documentation. Tier 0/1 projects with simple README.md files without many sections may or may not need this, but it is still extremely helpful to provide "bookmark" or "anchor" links to specific sections of your file to be referenced in tickets, docs, or other communication channels.-->
 
-**{list of .md at top directory and descriptions}**
 
 ## Repository Structure
 
 <!-- TODO: Using the "tree -d" command can be a helpful way to generate this information, but, be sure to update it as the project evolves and changes over time.-->
 <!--TREE START--><!--TREE END-->
-
-**{list directories and descriptions}**
+```
+.
+├── action.yml
+├── Dockerfile
+├── entrypoint.py
+└── tests
+├── .github
+│   ├── dependabot.yml
+│   └── workflows
+│       ├── build.yml
+│       └── major-release-num.yml
+```
 
 # Development and Software Delivery Lifecycle 
 
@@ -43,31 +54,65 @@ The following guide is for members of the project team who have access to the re
 
 ## Local Development
 
-<!--- TODO - with example below:
-This project is monorepo with several apps. Please see the [api](./api/README.md) and [frontend](./frontend/README.md) READMEs for information on spinning up those projects locally. Also see the project [documentation](./documentation) for more info.
--->
+
+### Installation
+
+1. Clone the repo
+
+    `git clone https://github.com/IsaacMilarky/gource-log.git`
+
+2. Install the required packages and build dependencies:
+
+    - Docker
+    - act
+    - gource
+    
+## Running Locally
+
+1. Change to the base project directory
+
+2. Run the 'build' job using act
+
+    `sudo act -a build`
 
 ## Coding Style and Linters
 
-<!-- TODO - Add the repo's linting and code style guidelines -->
 
-Each application has its own linting and testing guidelines. Lint and code tests are run on each commit, so linters and tests should be run locally before committing.
+This project adheres to PEP8 rules and guidelines whenever possible when accepting
+new contributions of Python code. Although, there are good reasons to ignore particular guidelines
+in particular situations. Further information on PEP8 can be found [here.](https://peps.python.org/pep-0008/)
+
+This project utilizes pylint as the primary linter for backend code, while eslint and prettier handle code formatting and linting for the frontend. Checks are implemented upon new pull requests into protected branches to ensure code quality and consistency.
+
+Python code quality checks are extremely useful for lowering the
+cost of maintenence of Python projects. Further information on Pylint can be found [here.](https://pylint.readthedocs.io/en/latest/)
+
 
 ## Branching Model
 
-<!--- TODO - with example below:
+We follow the [GitHub Flow Workflow](https://guides.github.com/introduction/flow/)
+
+1.  Fork the project 
+2.  Check out the `main` branch 
+3.  Create a feature branch
+4.  Write code and tests for your change 
+5.  From your branch, make a pull request against `dev` if you have a feature change and `main` if it is a hotfix 
+6.  Work with repo maintainers to get your change reviewed and resolve git history if needed
+7.  Wait for your change to be pulled into `dev` and later released into `main`
+8.  Delete your feature branch
+
 This project follows [trunk-based development](https://trunkbaseddevelopment.com/), which means:
 
-* Make small changes in [short-lived feature branches](https://trunkbaseddevelopment.com/short-lived-feature-branches/) and merge to `main` frequently.
+* Make small changes in [short-lived feature branches](https://trunkbaseddevelopment.com/short-lived-feature-branches/) and merge to `dev` frequently.
 * Be open to submitting multiple small pull requests for a single ticket (i.e. reference the same ticket across multiple pull requests).
-* Treat each change you merge to `main` as immediately deployable to production. Do not merge changes that depend on subsequent changes you plan to make, even if you plan to make those changes shortly.
+* Treat each change you merge to `dev` and `main` as immediately deployable to production. Do not merge changes that depend on subsequent changes you plan to make, even if you plan to make those changes shortly.
 * Ticket any unfinished or partially finished work.
 * Tests should be written for changes introduced, and adhere to the text percentage threshold determined by the project.
 
-This project uses **continuous deployment** using [Github Actions](https://github.com/features/actions) which is configured in the [./github/workflows](.github/workflows) directory.
+This project uses **continuous deployment** using [Github Actions](https://github.com/features/actions) which is configured in the [./github/worfklows](.github/workflows) directory.
 
 Pull-requests are merged to `main` and the changes are immediately deployed to the development environment. Releases are created to push changes to production.
--->
+
 
 ## Contributing
 
@@ -75,7 +120,7 @@ Thank you for considering contributing to an Open Source project of the US Gover
 
 ## Codeowners
 
-The contents of this repository are managed by **{responsible organization(s)}**. Those responsible for the code and documentation in this repository can be found in [CODEOWNERS.md](CODEOWNERS.md).
+The contents of this repository are managed by DSACMS. Those responsible for the code and documentation in this repository can be found in [CODEOWNERS.md](CODEOWNERS.md).
 
 ## Community
 

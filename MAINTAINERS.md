@@ -4,13 +4,15 @@ This is a list of maintainers for this project. See [CODEOWNERS.md](./CODEOWNERS
 
 ## Maintainers:
 <!-- TODO: What groups/domains are maintainers a part of? Does your project have domains/areas that are maintained by specific people? List @USERNAMES directly, or any @ALIASES for groups/teams.-->
-- 
+- @IsaacMilarky
 
 ## Approvers:
-- 
+- @IsaacMilarky
+- @decause-gov
 
 ## Reviewers:
-- 
+- @IsaacMilarky
+- @decause-gov
 
 | Roles        | Responsibilities| Requirements  | Defined by|
 | -------------|:---------------|:-------------|:-------------|
@@ -79,6 +81,8 @@ Definitions for breaking changes will vary depending on the use-case and project
 
 ### Ongoing version support
 
+Currently, the most recent version is the supported version.
+
 <!-- TODO: Explanation of general thought process 
 
 Explain the project’s thought process behind what versions will and won’t be supported in the future.
@@ -96,28 +100,27 @@ This section should make clear which versions of the project are considered acti
 
 The sections below define the release process itself, including timeline, roles, and communication best practices.
 
-
+<!-- TODO:
 ### Goals
 
-<!-- TODO: Explain the goals of your project’s release structure
+ Explain the goals of your project’s release structure
 
 This should ideally be a bulleted list of what your regular releases will deliver to key users and stakeholders
 -->
-.
-
-### Schedule
 
 <!-- TODO: Communicate the timing of the regular release structure
+### Schedule
+
 
 For example, if you plan on creating regular releases on a weekly basis you should communicate that as well as the typical days upcoming releases will become tagged. 
 
 You should also communicate special cases such as security updates or critical bugfixes and how they would likely be released earlier than what is usually scheduled. 
 -->
 
-
+<!-- TODO: Communicate proper channels to be notified about releases
 ### Communication and Workflow
 
-<!-- TODO: Communicate proper channels to be notified about releases
+
 
 Communicate the slack channels, mailing lists, or other means of pushing out release notifications.
 -->

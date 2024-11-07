@@ -1,0 +1,24 @@
+name: build
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v4
+
+    - name: Verify that the Docker image for the action builds
+      run: sudo docker build . --file Dockerfile
+
+    - name: Integration test
+      id: integration
+      uses: ./
+

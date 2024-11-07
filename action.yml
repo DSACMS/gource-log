@@ -1,0 +1,10 @@
+# Make sure to change the action name here (must be unique).
+# Update the rest as needed.
+name: 'gource-log'
+description: 'Github Action to run Gource on the desired repository and write the log for later use.'
+branding: # Look at documentation for branding options/requirements. These are my favorites.
+  icon: 'book-open'
+  color: 'green' 
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
