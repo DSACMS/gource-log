@@ -29,7 +29,7 @@ To use this GitHub action, you should be able to use it in your existing GitHub 
     - act
     - gource
     
-## Building the Project
+### Building the Project
 
 1. Change to the base project directory
 

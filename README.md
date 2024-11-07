@@ -48,8 +48,6 @@ An up-to-date list of core team members can be found in [MAINTAINERS.md](MAINTAI
 │       └── major-release-num.yml
 ```
 
-**{list directories and descriptions}**
-
 # Development and Software Delivery Lifecycle 
 
 The following guide is for members of the project team who have access to the repository as well as code contributors. The main difference between internal and external contributions is that external contributors will need to fork the project and will not be able to merge their own pull requests. For more information on contributing, see: [CONTRIBUTING.md](./CONTRIBUTING.md).
