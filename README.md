@@ -89,17 +89,6 @@ This project utilizes pylint as the primary linter for backend code, while eslin
 Python code quality checks are extremely useful for lowering the
 cost of maintenence of Python projects. Further information on Pylint can be found [here.](https://pylint.readthedocs.io/en/latest/)
 
-## Coding Style and Linters
-
-This project adheres to PEP8 rules and guidelines whenever possible when accepting
-new contributions of Python code. Although, there are good reasons to ignore particular guidelines
-in particular situations. Further information on PEP8 can be found [here.](https://peps.python.org/pep-0008/)
-
-This project utilizes pylint as the primary linter for backend code, while eslint and prettier handle code formatting and linting for the frontend. Checks are implemented upon new pull requests into protected branches to ensure code quality and consistency.
-
-Python code quality checks are extremely useful for lowering the
-cost of maintenence of Python projects. Further information on Pylint can be found [here.](https://pylint.readthedocs.io/en/latest/)
-
 
 ## Branching Model
 
