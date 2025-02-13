@@ -1,47 +1,47 @@
 {
   "name": "gource-log",
   "description": "GitHub Action to run Gource on the desired repository and store the log for later use.",
-  "longDescription": "",
-  "status": "",
+  "longDescription": "A Custom Built GitHub Action that helps Automate Gource and Gource Log Creation",
+  "status": "Production",
   "permissions": {
     "license": [
       {
-        "name": "",
-        "URL": ""
+        "name": "CC0 1.0 Universal",
+        "URL": "https://github.com/DSACMS/gource-log/blob/main/LICENSE"
       }
     ],
-    "usageType": "",
+    "usageType": "openSource",
     "exemptionText": ""
   },
-  "organization": "",
+  "organization": "Centers for Medicare & Medicaid Services",
   "repositoryURL": "https://github.com/DSACMS/gource-log",
   "vcs": "git",
   "laborHours": 2621,
-  "platforms": [],
-  "categories": [],
-  "softwareType": "",
+  "platforms": ["web"],
+  "categories": ["data-collection", "data-visualization"],
+  "softwareType": "standalone/web",
   "languages": [
     "Python",
     "Dockerfile"
   ],
-  "maintenance": "",
+  "maintenance": "internal",
   "date": {
     "created": "2024-11-05T15:52:01Z",
     "lastModified": "2025-02-13T19:29:35Z",
     "metaDataLastUpdated": "2025-02-13T19:31:25.332Z"
   },
-  "tags": [],
+  "tags": ["gource", "data-visualization", "logs"],
   "contact": {
-    "email": "",
-    "name": ""
+    "email": "opensource@cms.hhs.gov",
+    "name": "CMS Open Source Team"
   },
   "localisation": false,
-  "repositoryType": "",
+  "repositoryType": "tools",
   "userInput": false,
-  "fismaLevel": "",
-  "group": "",
-  "subsetInHealthcare": [],
-  "userType": [],
-  "repositoryHost": "github",
-  "maturityModelTier": 0
+  "fismaLevel": "Low",
+  "group": "CMS/OA/DSAC",
+  "subsetInHealthcare": ["Operational"],
+  "userType": ["Government"],
+  "repositoryHost": "github.com/DSACMS",
+  "maturityModelTier": 3
 }
