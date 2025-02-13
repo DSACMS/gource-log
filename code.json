@@ -1,0 +1,47 @@
+{
+  "name": "gource-log",
+  "description": "GitHub Action to run Gource on the desired repository and store the log for later use.",
+  "longDescription": "",
+  "status": "",
+  "permissions": {
+    "license": [
+      {
+        "name": "",
+        "URL": ""
+      }
+    ],
+    "usageType": "",
+    "exemptionText": ""
+  },
+  "organization": "",
+  "repositoryURL": "https://github.com/DSACMS/gource-log",
+  "vcs": "git",
+  "laborHours": 2621,
+  "platforms": [],
+  "categories": [],
+  "softwareType": "",
+  "languages": [
+    "Python",
+    "Dockerfile"
+  ],
+  "maintenance": "",
+  "date": {
+    "created": "2024-11-05T15:52:01Z",
+    "lastModified": "2025-02-13T19:29:35Z",
+    "metaDataLastUpdated": "2025-02-13T19:31:25.332Z"
+  },
+  "tags": [],
+  "contact": {
+    "email": "",
+    "name": ""
+  },
+  "localisation": false,
+  "repositoryType": "",
+  "userInput": false,
+  "fismaLevel": "",
+  "group": "",
+  "subsetInHealthcare": [],
+  "userType": [],
+  "repositoryHost": "github",
+  "maturityModelTier": 0
+}
