@@ -1,5 +1,6 @@
 {
   "name": "gource-log",
+  "version": "",
   "description": "GitHub Action to run Gource on the desired repository and store the log for later use.",
   "longDescription": "A Custom Built GitHub Action that helps Automate Gource and Gource Log Creation",
   "status": "Production",
@@ -15,33 +16,64 @@
   },
   "organization": "Centers for Medicare & Medicaid Services",
   "repositoryURL": "https://github.com/DSACMS/gource-log",
+  "repositoryHost": "github.com/DSACMS",
+  "repositoryVisibility": "public",
+  "homepageURL": "",
+  "downloadURL": "",
+  "disclaimerURL": "",
+  "disclaimerText": "",
   "vcs": "git",
-  "laborHours": 2621,
-  "platforms": ["web"],
-  "categories": ["data-collection", "data-visualization"],
+  "laborHours": 2682,
+  "reuseFrequency": {
+    "forks": 0,
+    "clones": 0
+  },
+  "platforms": [
+    "web"
+  ],
+  "categories": [
+    "data-collection",
+    "data-visualization"
+  ],
   "softwareType": "standalone/web",
   "languages": [
     "Python",
     "Dockerfile"
   ],
   "maintenance": "internal",
+  "contractNumber": [],
+  "SBOM": "https://github.com/DSACMS/gource-log/network/dependencies",
+  "relatedCode": [],
+  "reusedCode": [],
+  "partners": [],
   "date": {
     "created": "2024-11-05T15:52:01Z",
-    "lastModified": "2025-02-13T19:29:35Z",
-    "metaDataLastUpdated": "2025-02-13T19:31:25.332Z"
+    "lastModified": "2025-11-04T23:29:05Z",
+    "metadataLastUpdated": "2025-11-05T22:23:37.864Z"
   },
-  "tags": ["gource", "data visualization", "logs"],
+  "tags": [
+    "gource",
+    "data visualization",
+    "logs"
+  ],
   "contact": {
     "email": "opensource@cms.hhs.gov",
     "name": "CMS Open Source Team"
   },
+  "feedbackMechanism": "https://github.com/DSACMS/gource-log/issues",
+  "AIUseCaseID": "0",
   "localisation": false,
   "repositoryType": "tools",
   "userInput": false,
   "fismaLevel": "Low",
   "group": "CMS/OA/DSAC",
-  "subsetInHealthcare": ["Operational"],
-  "userType": ["Government"],
-  "repositoryHost": "github.com/DSACMS",
+  "projects": [],
+  "systems": [],
+  "subsetInHealthcare": [
+    "Operational"
+  ],
+  "userType": [
+    "Government"
+  ],
   "maturityModelTier": 3
 }
